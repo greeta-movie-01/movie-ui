@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: greeta-erp/erp-ui
+  IMAGE_NAME: greeta-movie-01/movie-ui
   VERSION: ${{ github.sha }}
 
 jobs:

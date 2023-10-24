@@ -7,8 +7,8 @@ export const getAvatarUrl = (text) => {
 export const isAdmin = (keycloak) => {
   return keycloak && 
          keycloak.tokenParsed && 
-         keycloak.tokenParsed.resource_access['erp-app'] && 
-         keycloak.tokenParsed.resource_access['erp-app'].roles.includes('ERP_MANAGER')
+         keycloak.tokenParsed.resource_access['movie-app'] && 
+         keycloak.tokenParsed.resource_access['movie-app'].roles.includes('MOVIE_MANAGER')
 }
 
 export const handleLogError = (error) => {
